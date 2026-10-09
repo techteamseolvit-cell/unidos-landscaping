@@ -116,21 +116,21 @@ Alt text: `Native plants in a xeriscape bed in Albuquerque`
 Alt text: `Aerial view of a modern xeriscape backyard in Albuquerque, NM`
 
 
-## 6. Seasonal Cleanups & Enhancements  (`/seasonal-cleanups-albuquerque-nm/`)
+## 6. Seasonal Cleanups & Enhancements  (`/yard-cleanup-albuquerque-nm/`)
 
-**Image 1** - file `seasonal-cleanups-albuquerque-nm-1.jpg` - 1600x900 (16:9)
+**Image 1** - file `yard-cleanup-albuquerque-nm-1.jpg` - 1600x900 (16:9)
 
 > /proshoot Autumn front yard of a craftsman bungalow in Albuquerque with a golden cottonwood tree, a freshly raked lawn and clean beds, just a few leaves resting on the borders, warm afternoon light. Authentic unedited photograph, shot on a full-frame DSLR with a 35mm lens, real-world natural light, true-to-life colors, subtle natural imperfections, fine film grain, realistic textures. Looks like a real photo of a real finished project, not CGI, not a 3D render, not an illustration, not over-saturated. No people, no workers, no hands, no vehicles, no text, no logos, no watermarks.
 
 Alt text: `Fall-ready front yard after a seasonal cleanup in Albuquerque, NM`
 
-**Image 2** - file `seasonal-cleanups-albuquerque-nm-2.jpg` - 1200x900 (4:3)
+**Image 2** - file `yard-cleanup-albuquerque-nm-2.jpg` - 1200x900 (4:3)
 
 > /proshoot Spring close-up of a refreshed garden bed with fresh cedar mulch, crisp bed edges and bright new perennials, soft morning light. Authentic unedited photograph, shot on a full-frame DSLR with a 35mm lens, real-world natural light, true-to-life colors, subtle natural imperfections, fine film grain, realistic textures. Looks like a real photo of a real finished project, not CGI, not a 3D render, not an illustration, not over-saturated. No people, no workers, no hands, no vehicles, no text, no logos, no watermarks.
 
 Alt text: `Spring bed refresh with new mulch in Albuquerque`
 
-**Image 3** - file `seasonal-cleanups-albuquerque-nm-3.jpg` - 1200x900 (4:3)
+**Image 3** - file `yard-cleanup-albuquerque-nm-3.jpg` - 1200x900 (4:3)
 
 > /proshoot Backyard with a wooden fence, pruned fruit trees and freshly raked gravel beds prepared for winter, cool soft overcast light, wide shot. Authentic unedited photograph, shot on a full-frame DSLR with a 35mm lens, real-world natural light, true-to-life colors, subtle natural imperfections, fine film grain, realistic textures. Looks like a real photo of a real finished project, not CGI, not a 3D render, not an illustration, not over-saturated. No people, no workers, no hands, no vehicles, no text, no logos, no watermarks.
 

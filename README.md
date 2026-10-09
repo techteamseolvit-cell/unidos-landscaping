@@ -11,7 +11,7 @@ Structure for the new individual service pages. Web-only recommendations; Instag
  ├─ /service-calls-albuquerque-nm/
  ├─ /outdoor-lighting-albuquerque-nm/
  ├─ /xeriscaping-albuquerque-nm/
- ├─ /seasonal-cleanups-albuquerque-nm/
+ ├─ /yard-cleanup-albuquerque-nm/
  ├─ /masonry-albuquerque-nm/
  ├─ /concrete-contractor-albuquerque-nm/
  ├─ /paver-installation-albuquerque-nm/
