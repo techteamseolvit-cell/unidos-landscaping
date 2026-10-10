@@ -10,7 +10,7 @@ Web-only recommendations; Instagram, Facebook, ads and Google Business are exclu
 
 ## Landing pages (slugs)
 landscaping-maintenance-albuquerque-nm, irrigation-repair-albuquerque-nm, service-calls-albuquerque-nm,
-outdoor-lighting-albuquerque-nm, xeriscaping-albuquerque-nm, yard-cleanup-albuquerque-nm,
+outdoor-lighting-albuquerque-nm, xeriscaping-albuquerque-nm, seasonal-cleanups-albuquerque-nm,
 masonry-albuquerque-nm, concrete-contractor-albuquerque-nm, paver-installation-albuquerque-nm
 
 Each page has exactly 3 images: banner background (hero), intro image, why-us image.
