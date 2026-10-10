@@ -1,4 +1,4 @@
-# Image prompts - service pages (3 per service, 30 total)
+# Image prompts - service pages (3 per service, 27 total)
 
 Each service page has exactly 3 image slots. Generate the images with the prompts below, save with the given file names, and upload to the WordPress Media Library.
 
@@ -198,24 +198,3 @@ Alt text: `Paver patio with medallion inlay in Albuquerque`
 > /proshoot Paver driveway with a contrasting gray cobble border leading to a Spanish colonial-style garage, wide shot, bright midday light. Authentic unedited photograph, shot on a full-frame DSLR with a 35mm lens, real-world natural light, true-to-life colors, subtle natural imperfections, fine film grain, realistic textures. Looks like a real photo of a real finished project, not CGI, not a 3D render, not an illustration, not over-saturated. No people, no workers, no hands, no vehicles, no text, no logos, no watermarks.
 
 Alt text: `Paver driveway with cobble border in Albuquerque, NM`
-
-
-## 10. Sod Installation  (`/sod-installation-albuquerque-nm/`)
-
-**Image 1** - file `sod-installation-albuquerque-nm-1.jpg` - 1600x900 (16:9)
-
-> /proshoot Freshly laid sod lawn in a backyard with a wooden fence, visible tight seams and dark topsoil edges, morning dew, soft light. Authentic unedited photograph, shot on a full-frame DSLR with a 35mm lens, real-world natural light, true-to-life colors, subtle natural imperfections, fine film grain, realistic textures. Looks like a real photo of a real finished project, not CGI, not a 3D render, not an illustration, not over-saturated. No people, no workers, no hands, no vehicles, no text, no logos, no watermarks.
-
-Alt text: `Freshly installed sod lawn in Albuquerque, NM`
-
-**Image 2** - file `sod-installation-albuquerque-nm-2.jpg` - 1200x900 (4:3)
-
-> /proshoot Macro top-down of dense, deep-green turf blades with dew drops, ultra-detailed texture. Authentic unedited photograph, shot on a full-frame DSLR with a 35mm lens, real-world natural light, true-to-life colors, subtle natural imperfections, fine film grain, realistic textures. Looks like a real photo of a real finished project, not CGI, not a 3D render, not an illustration, not over-saturated. No people, no workers, no hands, no vehicles, no text, no logos, no watermarks.
-
-Alt text: `Close-up of healthy green sod in Albuquerque`
-
-**Image 3** - file `sod-installation-albuquerque-nm-3.jpg` - 1200x900 (4:3)
-
-> /proshoot Wide front yard of a two-story home with a thick emerald lawn, curved bed edges and a mature tree, Sandia Mountains in the distance, late afternoon light. Authentic unedited photograph, shot on a full-frame DSLR with a 35mm lens, real-world natural light, true-to-life colors, subtle natural imperfections, fine film grain, realistic textures. Looks like a real photo of a real finished project, not CGI, not a 3D render, not an illustration, not over-saturated. No people, no workers, no hands, no vehicles, no text, no logos, no watermarks.
-
-Alt text: `Lush new sod lawn at a home in Albuquerque, NM`

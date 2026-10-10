@@ -15,7 +15,6 @@ Structure for the new individual service pages. Web-only recommendations; Instag
  ├─ /masonry-albuquerque-nm/
  ├─ /concrete-contractor-albuquerque-nm/
  ├─ /paver-installation-albuquerque-nm/
- ├─ /sod-installation-albuquerque-nm/
 ```
 
 Each page has 3 image slots only (hero + 2 inline). See `image-prompts.md` for the 30 prompts.
@@ -31,4 +30,4 @@ Each page has 3 image slots only (hero + 2 inline). See `image-prompts.md` for t
 - Show real Google Reviews on the Home
 - Copy fixes: "Checkout" -> "Check Out", "GET A QUOTES" -> "Get a Free Estimate", "Others Services" -> "Other Services"
 - Home FAQ: cost, timeline, license, service area, xeriscaping
-- Phase 3: location pages for Rio Rancho and Corrales
+- Link each service block on /services/ to its page; add a "See More" button on the Home services section
