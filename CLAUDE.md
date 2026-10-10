@@ -15,6 +15,6 @@ Rules: finished projects only, never people working. Albuquerque, NM context. Wi
 Sizes: hero image 1600x900 (16:9); other images 1200x900 (4:3).
 
 ## Site
-- WordPress site: https://unidoslandscaping.com/ (content is pasted into WordPress manually from `wordpress-pages/`).
+- WordPress site: https://unidoslandscaping.com/ (Elementor JSON files in `elementor/` are imported into WordPress manually).
 - Each service page has exactly 3 image slots. Prompts live in `image-prompts.md`.
 - Source of recommendations: ELITE Builders X-Ray report (website items only; ignore Instagram, Facebook, ads, Google Business).

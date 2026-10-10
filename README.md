@@ -1,33 +1,17 @@
-# Unidos Landscaping - website pages (from the ELITE Builders X-Ray report)
+# Unidos Landscaping - website work (from the ELITE Builders X-Ray report)
 
-Structure for the new individual service pages. Web-only recommendations; Instagram, Facebook, ads and Google Business excluded.
+Web-only recommendations; Instagram, Facebook, ads and Google Business are excluded.
 
-## Page structure
+## Elementor JSON (import in Elementor > Templates > Import)
+- `elementor/home.json` - Home with X-Ray changes: H1 with Albuquerque, "Proudly serving" line, copy fixes, H2 headings, See More button, Google reviews shortcode, FAQ (+ FAQPage schema), LeadConnector form.
+- `elementor/services.json` - Services page; each of the 9 blocks links to its landing page.
+- `elementor/contact-us.json` - Contact Us with the LeadConnector form.
+- `elementor/pages/*.json` - the 9 service landing pages (banner, intro + image, why-us + image, FAQ, quote form, "View Other Services" button).
 
-```
-/services/   (hub page: link to all pages below)
- ├─ /landscaping-maintenance-albuquerque-nm/
- ├─ /irrigation-repair-albuquerque-nm/
- ├─ /service-calls-albuquerque-nm/
- ├─ /outdoor-lighting-albuquerque-nm/
- ├─ /xeriscaping-albuquerque-nm/
- ├─ /yard-cleanup-albuquerque-nm/
- ├─ /masonry-albuquerque-nm/
- ├─ /concrete-contractor-albuquerque-nm/
- ├─ /paver-installation-albuquerque-nm/
-```
+## Landing pages (slugs)
+landscaping-maintenance-albuquerque-nm, irrigation-repair-albuquerque-nm, service-calls-albuquerque-nm,
+outdoor-lighting-albuquerque-nm, xeriscaping-albuquerque-nm, yard-cleanup-albuquerque-nm,
+masonry-albuquerque-nm, concrete-contractor-albuquerque-nm, paver-installation-albuquerque-nm
 
-Each page has 3 image slots only (hero + 2 inline). See `image-prompts.md` for the 30 prompts.
-
-## Files
-- `wordpress-pages/*.html`: one file per page; paste into a Custom HTML block.
-- `wordpress-pages/unidos-services.css`: shared styles (Additional CSS).
-- `image-prompts.md`: 3 AI image prompts per service.
-
-## Global fixes (not service pages)
-- Home H1: "Landscaping and Hardscaping in Albuquerque, NM"
-- Add "Proudly serving Albuquerque, Rio Rancho and Corrales" in the hero and service pages
-- Show real Google Reviews on the Home
-- Copy fixes: "Checkout" -> "Check Out", "GET A QUOTES" -> "Get a Free Estimate", "Others Services" -> "Other Services"
-- Home FAQ: cost, timeline, license, service area, xeriscaping
-- Link each service block on /services/ to its page; add a "See More" button on the Home services section
+Each page has exactly 3 images: banner background (hero), intro image, why-us image.
+See `image-prompts.md` (27 prompts) and `SEO.md` / `seo-sheet.csv` (Yoast fields).
