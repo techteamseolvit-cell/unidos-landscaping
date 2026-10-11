@@ -1,63 +1,47 @@
-# Pendientes del sitio web (según el X-Ray) - revisado en vivo el 2026-10-11
+# Pendientes del sitio web (según el X-Ray) - revisado en vivo el 2026-10-11 (segunda revisión)
 
-Leyenda: **TÚ** = lo haces en WordPress / lo decide el cliente. **YO** = lo preparo (JSON, textos, fichas). **AMBOS** = yo preparo, tú cargas.
+## Ya está (verificado en vivo)
+- Home completo (H1, "Proudly serving", Check Out, See More, reseñas, FAQ con schema, formulario LeadConnector, title/meta Yoast).
+- H1 con Albuquerque en Services, Residential, Commercial, Why Choose Us y Contact Us.
+- Residential y Commercial: "Proudly serving", formulario LeadConnector, "GET A QUOTES" y "Others Services" corregidos.
+- 8 landing pages publicadas con H1, "Proudly serving", FAQ con schema y fichas Yoast corregidas (Service Calls y Seasonal Cleanups).
+- Sitemap de Yoast activo (/sitemap_index.xml).
 
-## Páginas existentes
-### Home `/`  (la más avanzada)
-- [ ] TÚ/YO: texto alternativo en 9 imágenes (me pasas los nombres de archivo y te doy los textos).
-- [ ] TÚ: validar con el cliente las 6 respuestas de la FAQ (las redacté yo, sin precios ni números).
-- [ ] AMBOS: sección de before/after como mini casos de estudio (ubicación, tipo de trabajo, materiales). Necesito proyectos y datos reales.
-- [ ] AMBOS: datos estructurados LocalBusiness (teléfono, área de servicio) con Yoast o un bloque.
+## Pendiente
+### Services `/services/`  (lo más urgente)
+- [ ] **Enlaces rotos (404):** el bloque Service Calls apunta a `/landscaping-service-calls-albuquerque/` y debe ir a `/service-calls-albuquerque/`; el bloque Seasonal Cleanups apunta a `/yard-cleanup-albuquerque/` y debe ir a `/seasonal-cleanups-albuquerque/`.
+- [ ] Línea "Proudly serving Albuquerque, Rio Rancho and Corrales" debajo del H1.
+- [ ] Primer bloque (Commercial & Residential Landscaping) sin landing: enlazar a Residential o dejar sin enlace.
+- [ ] Texto alternativo en 8 imágenes.
 
-### Services `/services/`
-- [ ] YO: H1 "Our Services" -> "Landscaping Services in Albuquerque, NM" + línea "Proudly serving Albuquerque, Rio Rancho and Corrales" (necesito el JSON actual).
-- [ ] TÚ: el primer bloque (Commercial & Residential Landscaping) no tendrá landing propia; enlazarlo a Residential (y/o Commercial) o dejarlo sin enlace.
-- [ ] TÚ/YO: texto alternativo en 8 imágenes.
+### Home
+- [ ] Texto alternativo en 9 imágenes.
+- [ ] Before/after como mini casos de estudio (ubicación, tipo de trabajo, materiales) con proyectos reales.
+- [ ] Cliente valida las 6 respuestas de la FAQ.
 
-### Residential Landscaping `/residential-landscaping/`
-- [ ] YO: H1 con Albuquerque ("Residential Landscaping in Albuquerque, NM") + "Proudly serving..."
-- [ ] YO: botón "GET A QUOTES" -> "Get a Free Estimate"; "Others Services" -> "Other Services".
-- [ ] YO: cambiar el formulario por el de LeadConnector.
-- [ ] YO: enlazar los servicios de la lista a sus landing pages. (Decisión: ¿se pasa a borrador o se mantiene?)
-- [ ] TÚ/YO: alt en 1 imagen.
+### Residential
+- [ ] Alt en 1 imagen. Verificar que los servicios de la lista enlacen a sus landing pages.
 
-### Commercial Landscaping `/commercial-landscaping/`
-- [ ] YO: H1 con Albuquerque + "Proudly serving..."; botón "GET A QUOTES" -> "Get a Free Estimate"; formulario LeadConnector; enlaces a landing pages.
-- [ ] Decisión: ¿borrador o se mantiene?
+### Commercial
+- [ ] Verificar enlaces a landing pages.
 
-### Why Choose Us `/why-choose-us/`
-- [ ] YO: H1 "Why Choose Unidos Landscaping in Albuquerque, NM".
-- [ ] YO: agregar las reseñas de Google ([trustindex no-registration=google]) como prueba social.
-- [ ] TÚ/YO: alt en 5 imágenes.
+### Why Choose Us
+- [ ] Reseñas de Google ([trustindex no-registration=google]).
+- [ ] Texto alternativo en 5 imágenes.
 
-### Contact Us `/contact-us/`
-- [ ] YO: H1 "Get a Free Landscaping Estimate in Albuquerque, NM".
-- [ ] TÚ: corregir el mapa: la dirección dice "Alburquerque, Rio rancho, Corrales" -> "Albuquerque, Rio Rancho, Corrales".
+### Contact Us
+- [ ] Mapa: la dirección dice "Alburquerque, Rio rancho, Corrales" -> "Albuquerque, Rio Rancho, Corrales".
+- [ ] Decidir si se muestra la dirección (5710 Edith Blvd NE, Albuquerque, NM 87107).
 
-## Landing pages de servicio
-Pendiente en las 8 publicadas:
-- [ ] YO/AMBOS: línea "Proudly serving Albuquerque, Rio Rancho and Corrales" en el banner (la quitó la plantilla).
-- [ ] TÚ: subir las 3 imágenes por página (banner + 2) con alt (ver image-prompts.md).
-- [ ] TÚ: 1 imagen sin alt por página.
+### Landing pages (8)
+- [ ] Subir las 3 imágenes de cada una (banner + 2) y poner alt (1 imagen sin alt en cada página).
+- [ ] Xeriscaping (prioridad X-Ray): proyectos reales de ABQ, ahorro de agua, plantas nativas.
 
-| Página | Estado | Pendiente específico |
-|---|---|---|
-| Irrigation `/irrigation-repair-albuquerque/` | Publicada | Solo lo común. |
-| Service Calls `/landscaping-service-calls-albuquerque/` | Publicada | Title Yoast: hoy "landscaping service calls Albuquerque \| Unidos Landscaping" -> "Service Calls Albuquerque, NM \| Unidos Landscaping". |
-| Outdoor Lighting | Publicada | Solo lo común. |
-| Xeriscaping | Publicada | **Prioridad SEO del X-Ray:** proyectos reales de ABQ, ahorro de agua, plantas nativas. Faltan fotos/datos reales. |
-| Seasonal Cleanups `/yard-cleanup-albuquerque/` | Publicada | Title Yoast dice "Yard Cleanup" -> "Seasonal Cleanups Albuquerque, NM \| Unidos Landscaping"; keyphrase "seasonal cleanups Albuquerque"; valorar slug `seasonal-cleanups-albuquerque` con redirección 301. |
-| Masonry | Publicada | Solo lo común. |
-| Concrete | Publicada | Solo lo común. |
-| Pavers | Publicada | Solo lo común. |
+### Generales
+- [ ] Enviar sitemap a Google Search Console y solicitar indexación.
+- [ ] Datos de negocio local (LocalBusiness) - aún no existen.
+- [ ] Pedir reseña de Google a cada cliente al entregar el proyecto.
+- [ ] Revisar con el cliente los textos de garantías.
 
-## Generales
-- [ ] TÚ: enviar `/sitemap_index.xml` a Google Search Console.
-- [ ] TÚ: testimonios: pedir reseña de Google a cada cliente al entregar el proyecto (sistema de recolección).
-- [ ] TÚ: medir envíos del formulario de LeadConnector si se usarán las landing pages como destino de anuncios.
-- [ ] Revisar con el cliente: textos de garantía y "Materials & Warranties" (genéricos).
-
-## Decisiones tomadas (fuera del alcance actual)
-- Landscaping & Maintenance: no se creará (no la pide el X-Ray y se solapa con Residential/Commercial). Quedan 8 landing pages. El JSON queda en `elementor/pages/` por si se retoma.
-- Páginas de Rio Rancho y Corrales (fase 3 del X-Ray): no se harán; solo las 9 landing pages.
-- Página de Sod Installation: no se hará; queda como línea en Residential.
+## Decisiones tomadas
+- Landscaping & Maintenance no se creará; Rio Rancho/Corrales y Sod Installation quedan fuera. 8 landing pages.
