@@ -11,7 +11,7 @@ Leyenda: **TÚ** = lo haces en WordPress / lo decide el cliente. **YO** = lo pre
 
 ### Services `/services/`
 - [ ] YO: H1 "Our Services" -> "Landscaping Services in Albuquerque, NM" + línea "Proudly serving Albuquerque, Rio Rancho and Corrales" (necesito el JSON actual).
-- [ ] TÚ: crear la página Landscaping & Maintenance y enlazar el primer bloque (hoy sin enlace).
+- [ ] TÚ: el primer bloque (Commercial & Residential Landscaping) no tendrá landing propia; enlazarlo a Residential (y/o Commercial) o dejarlo sin enlace.
 - [ ] TÚ/YO: texto alternativo en 8 imágenes.
 
 ### Residential Landscaping `/residential-landscaping/`
@@ -42,7 +42,6 @@ Pendiente en las 8 publicadas:
 
 | Página | Estado | Pendiente específico |
 |---|---|---|
-| Landscaping & Maintenance | **NO publicada (404)** | Crear la página con el JSON, ficha Yoast, enlazar desde Services. |
 | Irrigation `/irrigation-repair-albuquerque/` | Publicada | Solo lo común. |
 | Service Calls `/landscaping-service-calls-albuquerque/` | Publicada | Title Yoast: hoy "landscaping service calls Albuquerque \| Unidos Landscaping" -> "Service Calls Albuquerque, NM \| Unidos Landscaping". |
 | Outdoor Lighting | Publicada | Solo lo común. |
@@ -59,5 +58,6 @@ Pendiente en las 8 publicadas:
 - [ ] Revisar con el cliente: textos de garantía y "Materials & Warranties" (genéricos).
 
 ## Decisiones tomadas (fuera del alcance actual)
+- Landscaping & Maintenance: no se creará (no la pide el X-Ray y se solapa con Residential/Commercial). Quedan 8 landing pages. El JSON queda en `elementor/pages/` por si se retoma.
 - Páginas de Rio Rancho y Corrales (fase 3 del X-Ray): no se harán; solo las 9 landing pages.
 - Página de Sod Installation: no se hará; queda como línea en Residential.
